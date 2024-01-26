@@ -6,7 +6,7 @@
     --color-black: #000000;
     --color-dark: #121212;
     --color-dark-gray: #242424;
-    --color-medium-gray-:#878787;
+    --color-medium-gray:#878787;
     --color-input-gray: #a7a7a7;
     --color-gray: #b3b3b3;
     --color-white: #FFFFFF;
@@ -14,5 +14,8 @@
     --color-blue: #509bf5;
 
     --bg-icon: #131313;
-    --bg-arrow-color: rgba(0,0,0,.7)
+    --bg-arrow-color: rgba(0,0,0,.7);
+
+    --grid-gap: 24px;
+    --column-count: 5;
 }
