@@ -66,3 +66,9 @@ document.addEventListener('input', function() {
     requestApi(searchTerm);
 
 });
+
+const buttonSearch = document.getElementById('sidebar-search');
+
+buttonSearch.addEventListener('click', function() {
+    searchInput.focus();
+})

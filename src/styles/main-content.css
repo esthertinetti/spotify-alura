@@ -84,7 +84,8 @@
     z-index: 1;
 }
 
-.header__search input:hover {
+.header__search input:hover,
+.header__search input:focus {
     border: 1px solid var(--color-white);
 }
 

@@ -36,16 +36,22 @@ body {
     padding: 10px 0;
 }
 
-
-.sidebar nav ul li a {
+.sidebar nav ul li a,
+.sidebar .sidebar-search {
     color: var(--color-gray);
     font-weight: 600;
     font-size: 14px;
     transition: 300ms all ease-in-out;
 }
 
-.sidebar nav ul li a:hover {
+.sidebar nav ul li a:hover,
+.sidebar .sidebar-search:hover {
     color: var(--color-white);
+}
+
+.sidebar .sidebar-search {
+    background: transparent;
+    padding: 0;
 }
 
 .library {

@@ -37,3 +37,56 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (max-width: 991px) {
+    .sidebar {
+        position: initial;
+        width: auto;
+    }
+    
+    .disclaimer-premium {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .disclaimer-premium .text {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .main-container {
+        margin-left: 0;
+    }
+
+    .offer__list-item {
+        grid-template-columns: repeat(3, 1fr) ;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .playlist-container {
+        height: calc(100% - 270px);
+    }
+
+    .offer__scroll-container {
+        max-height: calc(100vh - 422px);
+    }
+
+    .scroll-container {
+        max-height: calc(100vh - 270px);
+    }
+}
+
+@media (max-width: 768px) {
+    .offer__list-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
